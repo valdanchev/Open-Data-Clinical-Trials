@@ -1,0 +1,42 @@
+﻿VariableName,VariableNameLong,Description
+ID,Article ID,Internal ID number assigned to each paper during the coding process.
+Title,Article title,Title of the article
+Authors,Article authors,List of article authors
+PublicationYearMonth,Publication year and month,Year and month of publication for the journal article
+PublicationYearQuarter,Publication year and quarter,Year and quarter of publication for the journal article
+DOI,Paper DOI number,Digital object identifier for the article
+PMID,Paper PMID number,PubMed ID for the article
+Journal,Journal title,Title of the journal publishing the article
+DSS,Data sharing statement,Text of the data sharing statement for the article.
+DeclaredDataSharing,Declared data sharing,"Whether or data is sharing is declared in the DSS (0=No, 1=Yes) "
+Individual,Individual level data,The DSS declares that individual-level data will be shared.
+Aggregate,Aggregate data,The DSS declares that aggregated data will be shared.
+Unspeficied,Unspecified data,The DSS does not specificy what type of data will be shared.
+RqstAuthors,Request authors,The DSS declares that data is available via requesing access from one of the authors.
+RqstCommGroupUnit,"Request Committee, Group, or Unit","The DSS declares that data is available via requesting access from a committee, group, or unit (rather than just the corresponding author)."
+RqstRepository,Request Repository,The DSS declares that data is available via a data repository.
+RepositoryName,Repository Name,"The name of the repository where data is or planned to be shared, as stated in the DSS."
+InformationAboutDataOnRepository,Information about data on repository,The DSS declares that data is available via a repository and there actually information about the data on that repository (0=no 1=yes).
+DataAvailableOnRepository,Data available on repository,The DSS declares that data is available on a repository and the data is actually available on that repository (0=no 1=yes).
+RqstCompany,Request company,The DSS declares that data is available through requesting access from a company.
+DataAvailableToOthers,Data available to others,The DSS declares that the data is openly or publicly available or available to those who have access to the related journal article (i.e. available as a supplementary material).
+AccessUnspecified,Access is unspecified,It is unclear from the DSS how access to data can be requested. 
+Embargo,Embargo,"The DSS declares that data is availabe, but there is an embargo period (0=No, 1=Yes)"
+EmbargoPeriodMonths,Embargo Period in Months,The length of any embargo period in months.
+EmbargoUpTo1Y,Embargo up to 1 year,The embargo period is 1 year or less.
+EmbargoAbove1Yto2Y,Embargo 1 to 2 years,The embargo period is between 1 and 2 years.
+EmbargoAbove2Y,Embargo above 2 years,The embargo period is greater than 2 years.
+ProductApproval,Product Approval,The DSS declares that data will be made available after product approval.
+EmbargoOrProductApproval,Embargo product approval,The DSS declares that the data will be made available after either the embargo or product approval
+Collaboration,Collaboration,The DSS declares that the data will be made available if the requester collaborates with the original authors.
+NoReason,No Reason,The DSS gives no reason why data can not be shared.
+DataPrivacy,Data privacy,The DSS states that data sharing may be limited for privacy-related reasons.
+Time/Cost,Time or cost,The DSS states that data sharing may be limited because of the time/financial cost required to share data. 
+OngoingTrialResearch,Ongoing trial or research,The DSS states that data sharing may be limited because of the research/trial is still ongoing. 
+RegulatoryApproval,Regulatory approval,The DSS states that data sharing may be limited because of regulatory approval.
+ProprietaryData,Proprietary data,The DSS states that data sharing may be limited because the data is proprietary (i.e. the property of the sponsor).
+SharedAmongCoTrialistsOnly,Data shared among co-trialists only,The DSS states that data will be shared only to trial co-investigators.
+MayBeAvailableForCollab,Data may be made available for collaboration,The DSS states will not be shared but contains language implying data may be available for researchers interested in collaborating with the authors.
+MayBeMadeAvailableUponRequest,Data may be made available upon request,The DSS states that data will not be shared but also contains language that implies it may be available upon request.
+FundingStatement,Funding Statement from Paper,"Sources of research funding, as described in the paper."
+FunderType,Funder Type,"Sources of research funding by category (1=Industry, 2=NIH, 3=Non-industry non-NIH, 4=Mixed)"
